@@ -1,0 +1,91 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    gap: 140px;
+    margin-top: 40px;  
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+h1 {
+    margin-bottom: -8px;
+}
+.tabs {
+    margin-right: 24px;
+    display: flex;
+    gap: 20px;
+}
+.tabs p {
+    margin-top: 28px;
+}
+.tabs button {
+    margin-top: 16px;
+    color: white;
+    border: none;
+    background-color: #FF4D00;
+    border-radius: 8%; 
+}
+.socials {
+    margin-top: 32px;
+    display: flex;
+    
+}
+.socials hr {
+    width: 100px;
+    height: 2px;
+    background-color: #FF4D00;
+    border: none;
+}
+.hr {
+    margin-left: -10px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+.fab {
+    color: white;
+    font-size: 24px;
+    transition: 0.5s;
+    margin-right: 8px;
+}
+.fab:hover {
+    color: #FF4D00;
+}
+.hero {
+    display: flex;
+    margin-left: 30px;
+}
+.hero .description {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 270px;
+}
+.hero h2 {
+    margin-top: 106px;
+    font-size: 24px;
+    width: 250px;
+}
+.hero h2 span{
+    color: #FF4D00
+    
+}
+.hero h3 {
+    color: rgb(144, 144, 144);
+    font-size: 12px;
+    font-weight: 100;
+    
+}
+.hero button {
+    width: 200px;
+    margin-left: 32px;
+}
+.hero img {
+    height: 100px;
+    margin-top: auto;
+}
