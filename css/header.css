@@ -45,13 +45,11 @@ h1 {
     display: flex;
     
 }
-.socials hr {
+.hr {
+    background-color: #FF4D00;
     width: 100px;
     height: 2px;
-    background-color: #FF4D00;
     border: none;
-}
-.hr {
     margin-left: -10px;
     margin-top: 12px;
     margin-right: 12px;
@@ -73,7 +71,6 @@ li {
 .hero {
     display: flex;
     margin-left: 32px;
-    
 }
 .description {
     display: flex;
@@ -113,7 +110,43 @@ li {
     margin-top: 80px;   
 }
 .testimonials {
-    margin: 500px;
+    margin: 180px 32px;
+}
+.ig-section{
+    margin-left: 32px;
+    margin-bottom: 80px;
+    display: flex;
+    gap:12px;
+}
+.ig-description{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 120px;
+}
+.ig-link {
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+}
+.ig-link:hover {
+    text-decoration: underline;
+} 
+.ig-big-pic {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.ig-sml-pic-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.ig-sml-pic {
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 .f1 {
     display: flex;
@@ -131,4 +164,9 @@ li {
     display: flex;
     justify-content: center;
     gap: 14px;
+}
+.hr2 {
+    background-color: white;
+    width: 2200px;
+    height: 1px;
 }
