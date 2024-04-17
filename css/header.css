@@ -165,8 +165,11 @@ li {
     justify-content: center;
     gap: 14px;
 }
-.hr2 {
-    background-color: white;
-    width: 2200px;
-    height: 1px;
+
+@media screen and (max-width: 1000px) {
+    .hr2 {
+        background-color: white;
+        width: 500px;
+        height: 1px;
+    }
 }
