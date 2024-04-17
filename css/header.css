@@ -168,7 +168,11 @@ li {
 @media screen and (max-width: 1000px) {
     .hr2 {
         background-color: white;
-        width: 500px;
+        width: 800px;
         height: 1px;
+    }
+    .herobutton p{
+        width: 100px;
+        margin: 0px auto;
     }
 }
