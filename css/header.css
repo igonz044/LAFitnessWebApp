@@ -16,18 +16,31 @@ h1 {
     margin-right: 24px;
     display: flex;
     gap: 20px;
+    
 }
 .tabs p {
     margin-top: 28px;
 }
-.tabs button {
+.herobutton {
     margin-top: 16px;
     color: white;
     border: none;
     background-color: #FF4D00;
-    border-radius: 8%; 
+    border-radius: 8px; 
+    cursor: pointer;
+    width: 100px;
+    transition: 0.2s;
+    --shadow-color: 0deg 0% 0%;
+    box-shadow:
+    0.5px 0.7px 1px hsl(var(--shadow-color) / 0.12),
+    1.5px 2.5px 3.3px -0.8px hsl(var(--shadow-color) / 0.12),
+    3.9px 6.3px 8.3px -1.7px hsl(var(--shadow-color) / 0.12),
+    9.6px 15.5px 20.5px -2.5px hsl(var(--shadow-color) / 0.12);
 }
-.socials {
+.herobutton:hover {
+    background-color: #df4300;
+}
+.socials { 
     margin-top: 32px;
     display: flex;
     
@@ -53,39 +66,69 @@ li {
     transition: 0.5s;
     margin-right: 8px;
 }
-.fab:hover {
+.tab:hover, .fab:hover {
     color: #FF4D00;
+    cursor: pointer;
 }
 .hero {
     display: flex;
-    margin-left: 30px;
+    margin-left: 32px;
+    
 }
-.hero .description {
+.description {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    width: 270px;
+    gap: 16px;
 }
-.hero h2 {
+.description h2 {
     margin-top: 106px;
     font-size: 24px;
     width: 250px;
 }
-.hero h2 span{
-    color: #FF4D00
-    
-}
-.hero h3 {
+.description h3 {
+    width: 230px;
     color: rgb(144, 144, 144);
     font-size: 12px;
-    font-weight: 100;
-    
+    font-weight: 100;   
 }
-.hero button {
-    width: 200px;
-    margin-left: 32px;
+.description button {
+    font-size: 12px;
+    width: 160px;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 4px;
+    line-height: 16px;
+    --shadow-color: 0deg 0% 0%;
+    box-shadow:
+    0.5px 0.7px 1px hsl(var(--shadow-color) / 0.12),
+    1.5px 2.5px 3.3px -0.8px hsl(var(--shadow-color) / 0.12),
+    3.9px 6.3px 8.3px -1.7px hsl(var(--shadow-color) / 0.12),
+    9.6px 15.5px 20.5px -2.5px hsl(var(--shadow-color) / 0.12);
+}
+.description h2 span {
+    color: #FF4D00;
 }
 .hero img {
-    height: 100px;
-    margin-top: auto;
+    height: 270px;
+    margin-top: 80px;   
+}
+.testimonials {
+    margin: 500px;
+}
+.f1 {
+    display: flex;
+    gap: 20px;
+    justify-content:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.f1 a {
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+}
+.f2 {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
 }
